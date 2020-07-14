@@ -1,2 +1,2 @@
 # coding-notes
-I will publish in here any notes that I have about programming
+I will add in here any notes that I may have about programming, and I will be sure to keep this updated.
