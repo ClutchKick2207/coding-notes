@@ -5,7 +5,10 @@ Places to look at for PHP tips and learning:
 
 Common Commands (It is good practice to use all caps, and also end each statement with a ';':
 
-SELECT - extracts data from a database
+SELECT - extracts data from a datab
+Update Readme.md
+4 hours ago
+ase
 UPDATE - updates data in a database
 DELETE - deletes data from a database
 INSERT INTO - inserts new data into a database
@@ -20,3 +23,12 @@ DROP INDEX - deletes an index
 Details on specific commands:
 
 SELECT:
+    Syntax: 
+            SELECT column1, column2, ... FROM table_name;
+            (Where you are selecting column 1 and column 2 from the database table_name)
+            
+            SELECT * FROM table_name; 
+            (To select all in a table/database)
+            
+    Uses:
+        Simply selects the requested 
