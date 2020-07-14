@@ -1,5 +1,3 @@
-# coding-notes
-
 # **What this is about:**
 
  This is a project to put all of my notes from all of my studied languages into this repository so that it can be accessed at any time. 
@@ -12,3 +10,7 @@ You can email me your notes (in a .txt file format), to be added to this reposit
 
 * PHP
 * More to be added...
+
+
+I will add in here any notes that I may have about programming, and I will be sure to keep this updated.
+
