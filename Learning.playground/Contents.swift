@@ -20,7 +20,7 @@ print(a / b)
 let c = 10
 
 /* Data Types:
-String: Text
+Str: Text
 Int: Whole Numbers (both positive and negative)
 Float: Decimal Numbers
 Double: Large Decimal Numbers
