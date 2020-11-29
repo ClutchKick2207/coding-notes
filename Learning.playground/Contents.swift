@@ -21,8 +21,8 @@ let c = 10
 
 /* Data Types:
 String: Text
-Integer: Whole Numbers (both positive and negative)
+Int: Whole Numbers (both positive and negative)
 Float: Decimal Numbers
 Double: Large Decimal Numbers
-Boolean: True/False
+Bool: True/False
 */
