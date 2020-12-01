@@ -157,4 +157,7 @@ Logical and Comparision Operators
 >= : Comparison (value on left must be greater or equal to value on right)
 <  : Comparison (value on right must be greater than value on left)
 <= : Comparison (value on right must be greater or equal to value on left)
+&& : Logical (AND - The conditional statement on the left and right must be true)
+|| : Logical (OR  - The conditional statement on the left or right must be true)
+|  : Logical (NOT - Returns the logical opposite of the conditional statement immediately following the operator)
 */
