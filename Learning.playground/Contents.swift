@@ -147,4 +147,14 @@ let totalDistance = 3.9
 var distanceTravelled = 1.2
 var remaingDistance = totalDistance - distanceTravelled
 
+/* Control Flow*/
 
+/*
+Logical and Comparision Operators
+== : Comparison (two items must be equal)
+!= : Comparison (two items must not be equal)
+>  : Comparison (value on left must be greater than value on right)
+>= : Comparison (value on left must be greater or equal to value on right)
+<  : Comparison (value on right must be greater than value on left)
+<= : Comparison (value on right must be greater or equal to value on left)
+*/
