@@ -147,6 +147,7 @@ let totalDistance = 3.9
 var distanceTravelled = 1.2
 var remaingDistance = totalDistance - distanceTravelled
 
+
 /* Control Flow*/
 
 /*
@@ -161,3 +162,40 @@ Logical and Comparision Operators
 || : Logical (OR  - The conditional statement on the left or right must be true)
 |  : Logical (NOT - Returns the logical opposite of the conditional statement immediately following the operator)
 */
+
+//You can also use Boolean values here for logic!
+
+//Examples using Logic:
+
+//'if' statements
+let temperature = 100
+if temperature >= 100 {
+    print("The water is boiling")
+}
+
+//'if-else' statements
+let temperature01 = 100
+if temperature01 >= 100 {
+    print("The water is boiling.")
+} else {
+    print("The water is not boiling.")
+}
+
+//Another example using 'if-else' statements
+
+var finishPosition = 2
+
+if finishPosition == 1 {
+    print("Congratulations, you have won a gold medal!")
+} else if finishPosition == 2 {
+    print("You can in second place, you won a silver medal!")
+} else {
+    print("You did not recieve a medal :(")
+}
+
+//Using Boolean for logic
+
+let number04 = 1000
+let isSmallNumber = number < 10
+print(isSmallNumber)
+
