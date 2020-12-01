@@ -1,32 +1,150 @@
-import UIKit
+import Foundation
+/*
+ Welcome to my Swift Notes! This will include my journey through the Apple Documentation and also the Apple resources, enjoy the read through and I will make it as comprehensive as I can!
+ */
 
-var str = "Hello, world!"
 
-print(str)
+/* Storing Values*/
 
-//Format to declare Variables/Constants
+//Constants: A variable that won't change throughout the lifetime of the program
 
-var name:String = "How to properly assign a data-type"
+let var1 = "John" // Syntax
+print(var1)
 
-//Variables (can be reassigned)
-var a:Int = 2
-var b:Int = 1
 
-a = 1 //no need to declare again
+//Variables: A variable that can change throughout the lifetime of the program
 
-//Operations
-print(a + b)
-print(a - b)
-print(a * b)
-print(a / b)
+var var2 = 29
+print(var2)
 
-//Constants (CANNOT be reassigned)
-let c = 10
+//Naming Conventions
 
-/* Data Types:
-Str: Text
-Int: Whole Numbers (both positive and negative)
-Float: Decimal Numbers
-Double: Large Decimal Numbers
-Bool: True/False
+/*
+ Rules:
+ - Cannot contain mathematical symbols
+ - Cannot contain spaces
+ - Cannot begin with a number
+ 
+ Best Practices:
+ - Names should be clear and descriptive
+ - Use 'Camel Case' (i.e. somethingLikeThis)
+ -
 */
+
+//Types:
+
+/*
+Integer: 'Int' , represents whole numbers/integers (e.g. 4)
+String: ' String', represents text/characters (e.g. this is a test)
+Double: 'Double', represents numbers that require a decimal point/real numbers (e.g. 9.4)
+Boolean: 'Bool', represents 'True' or 'False'
+*/
+
+//You cannot mismatch types, as it will be flagged, and it will not compile
+
+//Changing types on the fly:
+
+let x = 3
+let y = 0.1415927
+let pi = Double(x) + y
+
+// You can use underscores to assist in reading, as in:
+
+var largeUglyNumber = 1000000000
+var largeNiceNumber = 1_000_000_000
+
+//How to declare a variable/constant with a specific data-type:
+
+let cityName: String = "San Francisco"
+let pi1: Double = 3.1415927
+
+//You can match with a different data type, and compieler will adjust
+let number: Double = 3
+print(number)
+
+//When to declare a variable with a specific data-type:
+
+//When you create a constant, but have not assigned it a value
+let firstName: String
+//...
+firstName = "Bob"
+
+// When the value could be interpreted by the comiler as a different type
+let middleInitial: Character = "J"
+var remainingDistance: Double = 30
+
+//When you create your own type definition
+struct Car{
+    var make:String
+    var model:String
+    var year:Int
+}
+
+//Example program for 'Storing Values':
+
+let defaultScore = 100
+var playerOneScore = defaultScore
+var playerTwoScore = defaultScore
+
+print(playerOneScore)
+print(playerTwoScore)
+
+playerOneScore = 200
+print(playerOneScore)
+
+//Example 2
+
+struct Person {
+    let firstName: String
+    let lastName: String
+    
+    func sayHello() {
+      print("Hello there! My name is \(firstName) \(lastName).")
+    }
+    
+}
+
+let Jacob = Person(firstName: "Jacob", lastName: "Edwards")
+let Candace = Person(firstName: "Candace", lastName: "Salinas")
+
+Jacob.sayHello()
+Candace.sayHello()
+
+
+/* Operators*/
+
+/*
+Operations:
++ : Addition
+- : Substraction
+* : Multiplication
+/ : Division
+= : Equals to
+% : Remainder (a.k.a. 'Modulo')
+*/
+
+//Basic Arithmetic
+
+var opponentScore = 3 * 8
+
+var myScore = 100 / 4
+
+var totalScore = opponentScore + myScore
+
+//Updating a Variable
+myScore += 3 //Updates score and adds 3
+myScore -= 5 //Updates score and minuses 5
+myScore *= 2 //Updates score and times by 2
+myScore /= 2 //Updates score and divides by 2
+
+//Calculating the Remainder
+let dividend = 10
+let divisor = 3
+let quotient = dividend / divisor // Value of 3 as rounded down
+let remainder = dividend % divisor // Value of 1
+
+let totalDistance = 3.9
+var distanceTravelled = 1.2
+var remaingDistance = totalDistance - distanceTravelled
+
+
