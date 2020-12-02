@@ -199,3 +199,9 @@ let number04 = 1000
 let isSmallNumber = number < 10
 print(isSmallNumber)
 
+//Usig Boolean for logic (v2):
+
+let speedLimit = 65
+let currentSpeed = 72
+let isSpeeding = currentSpeed > speedLimit
+//Assigned as 'true' value
