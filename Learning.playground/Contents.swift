@@ -205,3 +205,23 @@ let speedLimit = 65
 let currentSpeed = 72
 let isSpeeding = currentSpeed > speedLimit
 //Assigned as 'true' value
+
+//You can also invert a Bool value by using thr NOT operator:
+
+var isSnowing = false
+
+if !isSnowing {
+    print("It is not snowing")
+}
+
+//Using multiple operators to make sure a value satisfies multiple criteria
+
+let temperature02 = 70
+
+if temperature02 >= 65 && temperature <= 75 {
+    print("The temperature is just right")
+} else if temperature < 65 {
+    print("It is too cold")
+} else {
+    print("It is too hot")
+}
