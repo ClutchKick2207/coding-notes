@@ -242,5 +242,23 @@ if isPluggedIn || hasBatteryPower {
 
 /*
 Explanation:
-As a long list of if and if-else statements can get confusing very quicky, also getting very messy and hard to edit. Swift has a function called 'Switch Statements' that is optimal for working with 
+As a long list of if and if-else statements can get confusing very quicky, also getting very messy and hard to edit. Swift has a function called 'Switch Statements' that is optimal for working with multiple options, as it allows for you to run seperate code for each option. A nice feature is the 'default' definition, which allows for you to set a 'default' for any conditions that you have not defined.
 */
+
+//Example using switch statements
+
+let numberOfWheels = 2
+switch numberOfWheels {
+case 0:
+    print("Missing something?")
+case 1:
+    print("Unicycle")
+case 2:
+    print("Bicycle")
+case 3:
+    print("Tricycle")
+case 4:
+    print("Quadcycle")
+default:
+    print("That is a lot of wheels!")
+}
