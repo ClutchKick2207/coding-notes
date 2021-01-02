@@ -3,6 +3,7 @@ import Foundation
  Welcome to my Swift Notes! This will include my journey through the Apple Documentation and also the Apple resources, enjoy the read through and I will make it as comprehensive as I can!
  */
 
+// Getting Started with App Development (Apple Book, accessible through Apple Books)
 
 /* Storing Values*/
 
@@ -236,3 +237,10 @@ if isPluggedIn || hasBatteryPower {
 } else {
     print("You cannot use your laptop")
 }
+
+//Switch Statements
+
+/*
+Explanation:
+As a long list of if and if-else statements can get confusing very quicky, also getting very messy and hard to edit. Swift has a function called 'Switch Statements' that is optimal for working with 
+*/
