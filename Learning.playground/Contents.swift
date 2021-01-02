@@ -225,3 +225,14 @@ if temperature02 >= 65 && temperature <= 75 {
 } else {
     print("It is too hot")
 }
+
+// the logical 'OR' operator represented by ||
+
+var isPluggedIn = false
+var hasBatteryPower = true
+
+if isPluggedIn || hasBatteryPower {
+    print("You can use your laptop.")
+} else {
+    print("You cannot use your laptop")
+}
