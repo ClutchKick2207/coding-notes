@@ -262,3 +262,7 @@ case 4:
 default:
     print("That is a lot of wheels!")
 }
+
+/*
+Explanation of code:
+Given the constant 'numberOfWheels', the code provides a seperate action if it is 0, 1, 2, 3, 4. it also provides an action for anything else that is not defined (the 'default')
