@@ -265,4 +265,35 @@ default:
 
 /*
 Explanation of code:
-Given the constant 'numberOfWheels', the code provides a seperate action if it is 0, 1, 2, 3, 4. it also provides an action for anything else that is not defined (the 'default')
+Given the constant 'numberOfWheels', the code provides a seperate action if it is 0, 1, 2, 3, 4. it also provides an action for anything else that is not defined (the 'default'), although this could have been written using if-else statements, it is a lot neater to write this way.
+*/
+
+//using case statements
+
+/*
+Allows for the evaluation of multiple statements at once. Makes code more efficient.
+*/
+
+let character = "z"
+
+switch character {
+case "a", "e", "i", "o", "u":
+    print("This character is a vowel")
+default:
+    print("This character is a consonant")
+}
+
+// When working with numbers, you can use interval matching to check for inclusion within a range.
+
+let distance = 98
+
+switch distance {
+case 0...9:
+    print("Your destination is close")
+case 10...99:
+    print("Your destination is a medium distance")
+case 100...999:
+    print("Your destination is far from here")
+default:
+    print("Are you sure you want to travel so far?")
+}
