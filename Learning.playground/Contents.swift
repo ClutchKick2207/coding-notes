@@ -297,3 +297,5 @@ case 100...999:
 default:
     print("Are you sure you want to travel so far?")
 }
+
+//an interesting use case for an if statement is to define another variable, usually through somr kind of logic.
