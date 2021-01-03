@@ -331,3 +331,9 @@ Three parts of a ternary operator:
 largest = a > b ? a : b
 
 //How to read the above: If 'a' > 'b' assign a ot the variable 'largest', otherwise assign 'b'
+
+//For an easier and more intuitve way of finding the largest value, use the 'max' function
+
+largest = max(a, b)
+w
+
