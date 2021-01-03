@@ -3,7 +3,12 @@ import Foundation
  Welcome to my Swift Notes! This will include my journey through the Apple Documentation and also the Apple resources, enjoy the read through and I will make it as comprehensive as I can!
  */
 
-// Getting Started with App Development (Apple Book, accessible through Apple Books)
+// The notes are from the specifc platform/documentation that is noted at the start of every section
+
+
+
+// Apple Education. “Develop in Swift Fundamentals.” Apple Inc. - Education, 2020. Apple Books. https://books.apple.com/au/book/develop-in-swift-fundamentals/id1511184145
+
 
 /* Storing Values*/
 
@@ -299,3 +304,30 @@ default:
 }
 
 //an interesting use case for an if statement is to define another variable, usually through somr kind of logic.
+
+var largest: Int
+
+let a = 15
+let b = 4
+
+if a > b {
+  largest = a
+} else {
+  largest = b
+}
+
+//Ternary Operator (?:)
+
+/*
+Three parts of a ternary operator:
+ 
+1. A question with a true or false answer
+2. A value if the answer to the question is true
+3. A value if the answer to the question is false.
+*/
+
+//Example og Ternary Operator:
+
+largest = a > b ? a : b
+
+//How to read the above: If 'a' > 'b' assign a ot the variable 'largest', otherwise assign 'b'
