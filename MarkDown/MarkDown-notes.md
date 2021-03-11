@@ -32,8 +32,8 @@ These headings can be used to signify different levels (such as points, sub-poin
 
 <br>
 
-## **Bold** and _italics_:
-To **Bold** a phrase/sentence but '**' infront and behind the piece of text. To use _italics_ put underscores infront and behind the text. You can also do both simultaneously, such as **_Bold and Italic_**, by just adding in both.
+## **Bold** and _italics_ and ~~strikethrough~~:
+To **Bold** a phrase/sentence but '**' infront and behind the piece of text. To use _italics_ put underscores infront and behind the text. ~~Strikethrough~~ is donw by putting 2 tildes before and after the text. You can also do all three simultaneously, such as **_~~Bold and Italic and Strikethrough~~_**, by just adding in all three.
 
 ## Different Lists:
 Lists are often used in MarkDown during note-taking, and can be beneficial to summarize any points.
@@ -55,3 +55,4 @@ Lists are often used in MarkDown during note-taking, and can be beneficial to su
    1. It works in the smae way
    2. But now you have numbers
       1. That you can make into cool things
+
