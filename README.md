@@ -11,6 +11,7 @@ You can email me your notes (in a .txt file format), to be added to this reposit
 * PHP
 * Python
 * Swift
+* MarkDown
 
 I will add in here any notes that I may have about programming, and I will be sure to keep this updated.
 
