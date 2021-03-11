@@ -4,4 +4,4 @@ Markdown is the most popular markup language used to make all sorts of things, s
 <br> 
 
 ## Why MarkDown?
-This is a question that I have been asking myself for a bit, but it allows for a distraction free way to write down something quickly, and make it look aesthetically pleasing. It can then be exported into a document that can be shared easily (such as a PDF)
+This is a question that I have been asking myself for a bit, but it allows for a distraction free way to write down something quickly, and make it look aesthetically pleasing. It can then be exported into a document that can be shared easily (such as a PDF). This can also be done to make efficient notes (through applications such as Notion, as well as your editor of choice and Git).
