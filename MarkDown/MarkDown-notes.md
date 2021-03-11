@@ -19,3 +19,14 @@ Throughout this document, you may have seen some HTML, such as `<br>`. Different
 ```python
 print("Hello, World!")
 ```
+
+<br>
+
+## The Different Headings:
+These headings can be used to signify different levels (such as points, sub-points, chapters, etc.)
+
+# H1
+## H2
+### H3
+#### H4
+
