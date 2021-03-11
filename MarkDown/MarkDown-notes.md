@@ -30,3 +30,7 @@ These headings can be used to signify different levels (such as points, sub-poin
 ### H3
 #### H4
 
+<br>
+
+## **Bold** and _italics_:
+To **Bold** a phrase/sentence but '**' infront and behind the piece of text. To use _italics_ put underscores infront and behind the text. 
