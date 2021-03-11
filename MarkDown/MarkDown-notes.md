@@ -14,8 +14,8 @@ Now I will break down the basics of MarkDown, and who knows, maybe I'll throw in
 <br>
 
 ## Using HTML:
-Throughout this document, you may have seen some HTML, such as `<br>`. Different rendering engines will render this differently, but GitHub's and many others, will have syntax highlighting enabled.
+Throughout this document, you may have seen some HTML, such as `<br>`. Different rendering engines will render this differently, but GitHub's and many others, will have syntax highlighting enabled. To activate this, write the name of the programming language with the opening part, like below
 
-```
+```python
 print("Hello, World!")
 ```
