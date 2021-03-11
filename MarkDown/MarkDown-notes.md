@@ -41,3 +41,17 @@ Lists are often used in MarkDown during note-taking, and can be beneficial to su
 - This is a list , it is cool
 - This is also unordered, and uses bullet points
 
+### Ordered Lists:
+
+1. This is an ordered list, it is cool
+2. It also is able to make pretty shopping lists
+
+### Layered Lists:
+- This is a layered list
+  - You are able to make sub-lists for each point
+    - Layers can be navigated through the use of 'tab' and 'backspace'
+
+1. The same thing can be done using an ordered list
+   1. It works in the smae way
+   2. But now you have numbers
+      1. That you can make into cool things
