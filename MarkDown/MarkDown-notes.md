@@ -33,4 +33,11 @@ These headings can be used to signify different levels (such as points, sub-poin
 <br>
 
 ## **Bold** and _italics_:
-To **Bold** a phrase/sentence but '**' infront and behind the piece of text. To use _italics_ put underscores infront and behind the text. 
+To **Bold** a phrase/sentence but '**' infront and behind the piece of text. To use _italics_ put underscores infront and behind the text. You can also do both simultaneously, such as **_Bold and Italic_**, by just adding in both.
+
+## Different Lists:
+Lists are often used in MarkDown during note-taking, and can be beneficial to summarize any points.
+### Unordered Lists:
+- This is a list , it is cool
+- This is also unordered, and uses bullet points
+
