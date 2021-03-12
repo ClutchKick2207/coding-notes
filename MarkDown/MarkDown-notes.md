@@ -34,6 +34,11 @@ These headings can be used to signify different levels (such as points, sub-poin
 
 <br>
 
+## Paragraphs:
+Paragraphs do not require any special formatting, just typing gets it to work.
+
+<br>
+
 ## **Bold** and _italics_ and ~~strikethrough~~:
 To **Bold** a phrase/sentence but '**' infront and behind the piece of text. To use _italics_ put underscores infront and behind the text. ~~Strikethrough~~ is donw by putting 2 tildes before and after the text. You can also do all three simultaneously, such as **_~~Bold and Italic and Strikethrough~~_**, by just adding in all three.
 
