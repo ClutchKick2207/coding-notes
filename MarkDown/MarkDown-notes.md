@@ -29,6 +29,8 @@ These headings can be used to signify different levels (such as points, sub-poin
 ## H2
 ### H3
 #### H4
+##### H5
+###### H6
 
 <br>
 
