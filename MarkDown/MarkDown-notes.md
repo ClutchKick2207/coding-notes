@@ -23,7 +23,7 @@ print("Hello, World!")
 <br>
 
 ## The Different Headings:
-These headings can be used to signify different levels (such as points, sub-points, chapters, etc.)
+These headings can be used to signify different levels (such as points, sub-points, chapters, etc.). For best practice, have a space betwen the '#' and the first character.
 
 # H1
 ## H2
