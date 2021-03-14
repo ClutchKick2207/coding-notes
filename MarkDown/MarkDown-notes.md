@@ -6,7 +6,7 @@ Markdown is the most popular markup language used to make all sorts of things, s
 
 ## Why MarkDown?
 
-This is a question that I have been asking myself for a bit, but it allows for a distraction free way to write down something quickly, and make it look aesthetically pleasing. It can then be exported into a document that can be shared easily (such as a PDF). This can also be done to make efficient notes (through applications such as Notion, as well as your editor of choice and Git).
+This is a question that I have been asking myself for a bit, but it allows for a distraction free way to write down something quickly, and make it look aesthetically pleasing. It can then be exported into a document that can be shared easily (such as a PDF). This can also be done to make efficient notes (through applications such as Notion, as well as your editor of choice and Git). I am using MarkText for this (in my opinion one of the best Markdown editors out there, and it is free and open-soucre)
 
 # A Guide to MarkDown
 
@@ -88,3 +88,9 @@ Links are done with this syntax:
 A random image:
 
 ![Google Search Engine](https://th.bing.com/th/id/R54e7b473441b8183e37c8ce05ca60f93?rik=mx7TsuLeaAN%2bkw&riu=http%3a%2f%2fbpi-canada.com%2fwp-content%2fuploads%2f2014%2f11%2fLaboratory_Technology-_Testing.jpg&ehk=c90c0rML%2b%2bKiZIcocQ9IKAqeSJfeL4Kv1iFV6Jw%2fb40%3d&risl=&pid=ImgRaw)
+
+
+
+## Exporting:
+
+I am using markdown for this, and with that I will show you all of the methods for exporting
